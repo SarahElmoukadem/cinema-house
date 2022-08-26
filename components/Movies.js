@@ -1,8 +1,10 @@
+import Card from "./Card";
+
 const Movies = ({results}) => {
     return ( 
         <div>
             {results.map((result) => (
-                <h1>{result.title}</h1>
+                <Card key={result.id} result={result} />
             ))}
         </div>
      );
