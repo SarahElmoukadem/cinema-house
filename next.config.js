@@ -4,6 +4,9 @@ const nextConfig = {
   swcMinify: true,
   images:{
     domains:["upload.wikimedia.org"]
+  },
+  env: {
+    API_KEY: process.env.API_KEY
   }
 }
 
