@@ -10,6 +10,7 @@ const Card = ({ result }) => {
             layout='responsive'
             width={200}
             height={100}
+            alt={result.title || result.name}
         />
 
         <div className="p-2">
